@@ -113,6 +113,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="60Percent.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/60Percent.vi"/>
 		<Item Name="JoysticksGlobal.vi" Type="VI" URL="../JoysticksGlobal.vi"/>
 		<Item Name="MotorsGlobal.vi" Type="VI" URL="../MotorsGlobal.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
