@@ -127,10 +127,17 @@ AddOutputFilter chunkFilter
 		<Item Name="3 Balls.vi" Type="VI" URL="../Autos/3 Balls.vi"/>
 		<Item Name="60Percent.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/60Percent.vi"/>
 		<Item Name="Ball Routine.ctl" Type="VI" URL="../Ball Routine.ctl"/>
+		<Item Name="Climber Routine.ctl" Type="VI" URL="../Climber Routine.ctl"/>
+		<Item Name="DriveStraightPID.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/DriveStraightPID.vi"/>
 		<Item Name="EncoderRateToRPM.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/EncoderRateToRPM.vi"/>
 		<Item Name="FlyWheelPID.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/FlyWheelPID.vi"/>
+		<Item Name="Get_Continuous_Angle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/Get_Continuous_Angle.vi"/>
 		<Item Name="MotorsGlobal.vi" Type="VI" URL="../MotorsGlobal.vi"/>
+		<Item Name="MoveForward.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Auto/2020/MoveForward.vi"/>
+		<Item Name="MoveForwardAndStraight.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Auto/2020/MoveForwardAndStraight.vi"/>
+		<Item Name="MoveStraight.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Auto/2020/MoveStraight.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="StateMachine_3BallLoadingBay.ctl" Type="VI" URL="../Autos/StateMachine_3BallLoadingBay.ctl"/>
 		<Item Name="TurretAnglePID.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/TurretAnglePID.vi"/>
 		<Item Name="TurretMode.ctl" Type="VI" URL="../TurretMode.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -547,9 +554,13 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CAN_PCMSend.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMSend.vi"/>
 				<Item Name="WPI_CAN_Receive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/WPI_CAN_Receive.vi"/>
 				<Item Name="WPI_CAN_Send.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/WPI_CAN_Send.vi"/>
+				<Item Name="WPI_CompressorClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorClose.vi"/>
 				<Item Name="WPI_CompressorDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorDevRef.ctl"/>
 				<Item Name="WPI_CompressorOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorOpen.vi"/>
+				<Item Name="WPI_CompressorRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Get.vi"/>
+				<Item Name="WPI_CompressorRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Set.vi"/>
 				<Item Name="WPI_CompressorStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStart.vi"/>
+				<Item Name="WPI_CompressorStop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStop.vi"/>
 				<Item Name="WPI_CounterAnalogTriggerToDigitalSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterAnalogTriggerToDigitalSource.vi"/>
 				<Item Name="WPI_CounterCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterCache.vi"/>
 				<Item Name="WPI_CounterCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterCacheOp.ctl"/>
@@ -651,6 +662,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_JoystickOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickOpen.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Set.vi"/>
+				<Item Name="WPI_JoystickSetOutputs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickSetOutputs.vi"/>
 				<Item Name="WPI_JoystickTankMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickTankMapping.vi"/>
 				<Item Name="WPI_MotorControlClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlClose.vi"/>
 				<Item Name="WPI_MotorControlDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlDeviceRef.ctl"/>
@@ -831,6 +843,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Z900_navX_Util_EncodeProtocol_UnsignedHundredths.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Util/Encode Protocol/Z900_navX_Util_EncodeProtocol_UnsignedHundredths.vi"/>
 				<Item Name="Z900_navX_Util_LittleEndian_to_BigEndian.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Util/Z900_navX_Util_LittleEndian_to_BigEndian.vi"/>
 				<Item Name="Z900_navX_ZeroVectorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ZeroVectorTypeDef.ctl"/>
+				<Item Name="Zero Yaw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Set/Zero Yaw.vi"/>
 			</Item>
 			<Item Name="Axes Cluster.ctl" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Unpack Gamepad/Axes Cluster.ctl"/>
 			<Item Name="Button Cluster.ctl" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Unpack Gamepad/Button Cluster.ctl"/>
@@ -841,10 +854,12 @@ AddOutputFilter chunkFilter
 			<Item Name="Change Detect.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Toggle/Change Detect.vi"/>
 			<Item Name="CheesyDrive.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Cheesy Drive/CheesyDrive.vi"/>
 			<Item Name="D-Pad.ctl" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Unpack Gamepad/D-Pad.ctl"/>
+			<Item Name="FancyPID.vi" Type="VI" URL="../../Hydralisk_V4/LabVIEW_is_Under_Control.lib/Util/FancyPID.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="HandleDeadband.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Cheesy Drive/HandleDeadband.vi"/>
+			<Item Name="In Range.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/In Range.vi"/>
 			<Item Name="NEWLinearInterpolate.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Cheesy Drive/NEWLinearInterpolate.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
