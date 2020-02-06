@@ -20,9 +20,9 @@
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 			</Item>
-			<Item Name="TurretMode.ctl" Type="VI" URL="../TurretMode.ctl"/>
-			<Item Name="MotorsGlobal.vi" Type="VI" URL="../MotorsGlobal.vi"/>
-			<Item Name="FancyPID.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/FancyPID.vi"/>
+			<Item Name="In Range.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/In Range.vi"/>
+			<Item Name="FancyPID.vi" Type="VI" URL="../../Hydralisk_V4/LabVIEW_is_Under_Control.lib/Util/FancyPID.vi"/>
+			<Item Name="RateLimiter.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Cheesy Drive/RateLimiter.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -125,6 +125,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="3 Balls.vi" Type="VI" URL="../Autos/3 Balls.vi"/>
+		<Item Name="5 Balls.vi" Type="VI" URL="../Autos/5 Balls.vi"/>
+		<Item Name="8 Balls.vi" Type="VI" URL="../Autos/8 Balls.vi"/>
 		<Item Name="60Percent.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/60Percent.vi"/>
 		<Item Name="Ball Routine.ctl" Type="VI" URL="../Ball Routine.ctl"/>
 		<Item Name="Climber Routine.ctl" Type="VI" URL="../Climber Routine.ctl"/>
@@ -135,9 +137,11 @@ AddOutputFilter chunkFilter
 		<Item Name="MotorsGlobal.vi" Type="VI" URL="../MotorsGlobal.vi"/>
 		<Item Name="MoveForward.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Auto/2020/MoveForward.vi"/>
 		<Item Name="MoveForwardAndStraight.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Auto/2020/MoveForwardAndStraight.vi"/>
-		<Item Name="MoveStraight.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Auto/2020/MoveStraight.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="StateMachine_3BallLoadingBay.ctl" Type="VI" URL="../Autos/StateMachine_3BallLoadingBay.ctl"/>
+		<Item Name="StateMachine_5BallLoadingBay.ctl" Type="VI" URL="../Autos/StateMachine_5BallLoadingBay.ctl"/>
+		<Item Name="StateMachine_8BallLoadingBay.ctl" Type="VI" URL="../Autos/StateMachine_8BallLoadingBay.ctl"/>
+		<Item Name="ToDegressSetpoint.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/Auto/2020/ToDegressSetpoint.vi"/>
 		<Item Name="TurretAnglePID.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/TurretAnglePID.vi"/>
 		<Item Name="TurretMode.ctl" Type="VI" URL="../TurretMode.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
