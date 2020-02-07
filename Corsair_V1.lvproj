@@ -130,6 +130,9 @@ AddOutputFilter chunkFilter
 		<Item Name="60Percent.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/60Percent.vi"/>
 		<Item Name="Ball Routine.ctl" Type="VI" URL="../Ball Routine.ctl"/>
 		<Item Name="Climber Routine.ctl" Type="VI" URL="../Climber Routine.ctl"/>
+		<Item Name="Default3BallEnum.ctl" Type="VI" URL="../Autos/Default3BallEnum.ctl"/>
+		<Item Name="Default5BallEnum.ctl" Type="VI" URL="../Autos/Default5BallEnum.ctl"/>
+		<Item Name="Default8BallEnum.ctl" Type="VI" URL="../Autos/Default8BallEnum.ctl"/>
 		<Item Name="DriveStraightPID.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/DriveStraightPID.vi"/>
 		<Item Name="EncoderRateToRPM.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/EncoderRateToRPM.vi"/>
 		<Item Name="FlyWheelPID.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/FlyWheelPID.vi"/>
