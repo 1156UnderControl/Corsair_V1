@@ -28,7 +28,7 @@
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">10.11.56.2</Property>
+		<Property Name="alias.value" Type="Str">roboRIO-1156-FRC.local</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -127,12 +127,14 @@ AddOutputFilter chunkFilter
 		<Item Name="3 Balls.vi" Type="VI" URL="../Autos/3 Balls.vi"/>
 		<Item Name="5 Balls.vi" Type="VI" URL="../Autos/5 Balls.vi"/>
 		<Item Name="8 Balls.vi" Type="VI" URL="../Autos/8 Balls.vi"/>
+		<Item Name="10 Balls.vi" Type="VI" URL="../Autos/10 Balls.vi"/>
 		<Item Name="60Percent.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/60Percent.vi"/>
 		<Item Name="Ball Routine.ctl" Type="VI" URL="../Team Code/Ball Routine.ctl"/>
 		<Item Name="Climber Routine.ctl" Type="VI" URL="../Team Code/Climber Routine.ctl"/>
 		<Item Name="Default3BallEnum.ctl" Type="VI" URL="../Autos/Default3BallEnum.ctl"/>
 		<Item Name="Default5BallEnum.ctl" Type="VI" URL="../Autos/Default5BallEnum.ctl"/>
 		<Item Name="Default8BallEnum.ctl" Type="VI" URL="../Autos/Default8BallEnum.ctl"/>
+		<Item Name="Default10BallEnum.ctl" Type="VI" URL="../Autos/Default10BallEnum.ctl"/>
 		<Item Name="DriveStraightPID.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/DriveStraightPID.vi"/>
 		<Item Name="EncoderRateToRPM.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/EncoderRateToRPM.vi"/>
 		<Item Name="FlyWheelPID.vi" Type="VI" URL="../LabVIEW_is_Under_Control.lib/Util/FlyWheelPID.vi"/>
@@ -922,7 +924,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
